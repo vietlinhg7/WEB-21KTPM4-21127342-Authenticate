@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "db_npok_user",
+    "password": "m1SdYI3oi7BWDASPDdlWQWgw3mZ4j7G5",
+    "database": "db_npok",
+    "host": "dpg-clk7jll8td7s73dcp880-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "db_npok_user",
+    "password": "m1SdYI3oi7BWDASPDdlWQWgw3mZ4j7G5",
+    "database": "db_npok",
+    "host": "dpg-clk7jll8td7s73dcp880-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "username": "db_npok_user",
+    "password": "m1SdYI3oi7BWDASPDdlWQWgw3mZ4j7G5",
+    "database": "db_npok",
+    "host": "dpg-clk7jll8td7s73dcp880-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
