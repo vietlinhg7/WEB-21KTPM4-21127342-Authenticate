@@ -89,6 +89,9 @@ controller.isLoggedIn = async (req, res, next) => {
         res.locals.user = req.session.user;
         return next();
     }
+    else {
+        res.redirect('/login');
+    }
 };
 
 module.exports = controller;
